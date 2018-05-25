@@ -2,6 +2,8 @@
 
 $arquivo = $_FILES['arquivo'];
 
-print_r($arquivo);
+if(isset($arquivo['tmp_name']) && !empty($arquivo['tmp_name'])){
+    
+}
 
 ?>
