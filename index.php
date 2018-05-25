@@ -1,4 +1,4 @@
-<form method="POST">
+<form method="POST" enctype="multipart/form-data">
 
 	<input type="text" name="nome"/><br/><br/>
 	
